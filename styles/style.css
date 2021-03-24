@@ -6,3 +6,173 @@ Green: #00B172
 White: #FFF
 
 */
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: #1A1A1A;
+}
+
+.nav-bar{
+
+background-color: white;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding: 0 7px;
+margin-bottom: 10px;
+
+}
+
+.nav-bar ul{
+    list-style: none;
+    display: inline;
+
+}
+
+.nav-bar img{
+    width: 200px;
+    height: auto;
+    
+    
+}
+
+.menu li{
+display: inline;
+padding: 0 7px;
+border-bottom: 2px solid transparent;
+transition-property: border-bottom ;
+transition-delay: 0;
+transition-duration: 0.5s;
+transition-timing-function: ease-in-out;
+}
+
+.menu li a{
+    text-decoration: none;
+    color:#1A1A1A
+}
+
+.menu li:hover{
+    border-bottom: 2px solid lightgray;
+}
+
+.hero-image{
+    background-image: url('../images/landing.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.hero-image h1{
+ color: white; 
+ font-size: 50px;
+ 
+ 
+}
+
+.hero-image h2{
+    color: white;
+    font-size: 25px;
+    font-weight: lighter;
+    line-height: 2px;
+    
+
+}
+
+.presentation{
+    text-align: center;
+}
+
+.presentation h1{
+    text-decoration: underline 5px solid #00B172;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
+    
+    
+}
+
+.box1{
+    margin-top: 50px;
+    margin-right: 5%;
+    margin-bottom: 0;
+    margin-left: 5%;
+    padding: 20px;
+    width: 40%;
+}
+
+.box1 img{
+    width: 125px;
+    height: auto;
+}
+
+.box1 h3{
+    color:#00B172 ;
+}
+
+.final{
+    background-color: #00B172 ;
+    margin: 0px 20px;
+    padding: 20px;
+   
+
+}
+
+
+.final-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+
+
+}
+
+.final{
+ color: #fff; 
+ 
+  
+
+}
+.final h2{
+    margin-left: 195px;
+    text-decoration: underline 2px solid white ;
+}
+
+.final-text p{
+    font-weight: lighter;
+}
+
+.final-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+    width: 20%;
+}
+
+.final-text h3{
+    text-align: center;
+}
+
+.icon{
+width: 100px;
+height: auto;
+position: absolute;
+}
+
+.app{
+    width: 300px;
+    height: auto;
+    
+}
